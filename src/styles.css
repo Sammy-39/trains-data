@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.login > form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.login > form > input {
+  margin-bottom: 8px;
+}
+
+.error {
+  font-size: 0.8em;
+  color: white;
+  border-radius: 3px;
+  background-color: red;
+  padding: 4px;
+}
+
+.trains {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.train-card {
+  font-size: 13px;
+  border-radius: 5px;
+  border: 1px solid rgb(199, 199, 199);
+  margin: 5px;
+  width: 300px;
+}
+
+.logout-btn {
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}
